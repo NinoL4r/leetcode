@@ -43,7 +43,7 @@ class Solution:
             if complement in preMap:
                 return [preMap[complement], i]
             preMap[n] = i
-        # return []
+        return []
 
 
 num = [2, 7, 4, 9]
