@@ -13,7 +13,7 @@ class Solution:
         return answerList
 
 
-candies = [4,2,1,1,2]
+candies = [4, 2, 1, 1, 2]
 extraCandies = 2
 sol = Solution()
 print(sol.kidsWithCandies(candies, extraCandies))
